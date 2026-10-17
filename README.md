@@ -132,34 +132,6 @@
 
 В `TestTransport` для всех четырех объектов рассчитывается поездка на `1000` км с тремя пассажирами и двумя тоннами груза. Тарифы условные, ограничения вместимости и задержки не моделируются.
 
-## Запуск
-
-Нужен JDK 17 или новее. В IntelliJ IDEA следует выбрать JDK, отметить `src` как Sources Root и запустить `main` нужного класса.
-
-Сборка из терминала: `sh build.sh` в Linux или `build.bat` в Windows. После сборки используется команда `java -cp out` с полным именем класса из таблицы.
-
-| Задание | Класс для запуска |
-| --- | --- |
-| 4, задание 1. Времена года | `ru.mirea.pr4.seasons.TestSeason` |
-| 4, задание 2. Ателье | `ru.mirea.pr4.atelier.Atelier` |
-| 4, задание 3. Интернет-магазин | `ru.mirea.pr4.shop.Shop` |
-| 4, задание 4. Компьютер | `ru.mirea.pr4.computer.TestComputer` |
-| 4.1, задание 1. Обычные фигуры | `ru.mirea.pr41.shapes.TestShape` |
-| 4.1, задание 2. Телефон | `ru.mirea.pr41.phone.TestPhone` |
-| 4.1, задание 3. Человек | `ru.mirea.pr41.person.TestPerson` |
-| 4.1, задание 4. Матрица | `ru.mirea.pr41.matrix.TestMatrix` |
-| 4.1, задание 5. Библиотека | `ru.mirea.pr41.library.TestReader` |
-| 4.1, задание 6. Работники | `ru.mirea.pr41.employees.TestEmployer` |
-| 4.1, задание 7. Учащиеся | `ru.mirea.pr41.learners.TestLearner` |
-| 4.1, задание 8. Абстрактные фигуры | `ru.mirea.pr41.abstractshapes.TestShape` |
-| 4.1, задание 9. Мебель | `ru.mirea.pr41.furniture.FurnitureShop` |
-| 4.1, задание 10. Транспорт | `ru.mirea.pr41.transport.TestTransport` |
-
-Например, магазин запускается командой:
-
-```bash
-java -cp out ru.mirea.pr4.shop.Shop
-```
 
 ## Результат работы
 
